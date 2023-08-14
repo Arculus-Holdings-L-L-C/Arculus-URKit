@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "URKit",
             dependencies: [
-                .product(name: "DCBOR", package: "BCSwiftDCBOR"),
+                .product(name: "DCBOR", package: "Arculus-BCSwiftDCBOR"),
                 .product(name: "BCCrypto", package: "BCSwiftCrypto"),
             ]
         ),
